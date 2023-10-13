@@ -39,7 +39,7 @@ I will review your changes and merge them if they are approved.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
@@ -52,7 +52,3 @@ If you have any questions or want to get in touch, here's my contact information
 - Telegram: [My Telegram](https://t.me/bizhani_mohsen)
 - Facebook: [My Facebook](https://facebook.com/mohsen.bizhani.2002)
 - Instagram:[My Instagram](https://instagram.com/bizhani.mohsen)
-
-## License
-
-This project is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0). See the [LICENSE](LICENSE) file for details.
