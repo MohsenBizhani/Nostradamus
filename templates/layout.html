@@ -1,0 +1,61 @@
+<!--
+
+
+Copyright 2023 Mohsen Bizhani
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <title>Nostradamus</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="/">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='favicon.ico') }}" alt="Nostradamus Logo">
+                    <h1>Nostradamus</h1>
+                </div>
+            </a>
+        </div>
+
+        </a>
+        <ul>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="license-note">
+                &copy; 2023 Mohsen Bizhani
+            </p>
+            <p class="license-note">
+                <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Licensed under the Apache License, Version 2.0</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
